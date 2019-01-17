@@ -13,7 +13,7 @@ AWS.config.update({
 // Criando o parametros da publicação de um sms 
 var params = {
     Message: 'Exemplo: Seu código de verificação é 001-901', 
-    PhoneNumber: '+5531991733167',
+    PhoneNumber: '',
 };
 
 function sendMessageSMS(params) {
